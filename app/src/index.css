@@ -1,0 +1,45 @@
+:root {
+  --text-primary: hsl(34, 89%, 96%);
+  --text-muted: hsl(212, 6%, 46%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+
+  min-height: 100vh;
+  background: hsl(210, 11%, 7%);
+}
+
+h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
